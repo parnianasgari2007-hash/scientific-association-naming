@@ -1,0 +1,18 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>پنل مدیران</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="login" class="box" hidden><h2 style="color:var(--bur);margin-top:0">ورود مدیران</h2>
+<form id="lf"><input id="em" type="email" placeholder="ایمیل" autocomplete="username" required>
+<input id="pw" type="password" placeholder="رمز عبور" autocomplete="current-password" required>
+<button class="btn" style="width:100%">ورود</button></form><p class="msg err" id="lm"></p>
+<a href="index.html">بازگشت به سایت</a></div>
+<div id="app" hidden><header><div class="wrap"><span class="logo"><i>ا</i>پنل مدیران</span>
+<button class="btn sm ghost" id="out">خروج</button></div></header>
+<main class="wrap"><div class="bar"><span class="stat" id="sp"></span><span class="stat" id="sa"></span><span class="sp"></span>
+<button class="btn sm" id="csv">خروجی CSV</button></div>
+<h3>در انتظار تأیید</h3><div class="list" id="pend"></div>
+<h3>تأییدشده</h3><div class="list" id="appr"></div></main></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="config.js"></script><script src="admin.js"></script></body></html>
