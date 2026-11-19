@@ -1,5 +1,5 @@
 :root{--navy:#17213F;--pur:#17213F;--ivory:#F8F5EF;--gold:#C5A66B;
---line:#E4DDCC;--tint:#EEE9F3;--card:#FFFDF9;--r:18px}
+--line:#E4DDCC;--tint:#E9EDF5;--card:#FFFDF9;--r:18px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--ivory);color:var(--navy);font:400 17px/1.9 Vazirmatn,Tahoma,sans-serif}
 a{color:inherit}
